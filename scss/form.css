@@ -1,0 +1,395 @@
+.page_content .entry_form {
+  margin-left: 80px;
+  font-family: "Lato", sans-serif;
+}
+
+.page_content .entry_form .field_items .field-items-required::before {
+  content: "*";
+  color: red;
+}
+
+.page_content .entry_form .field_items .details .validation .content {
+  padding-bottom: 35px;
+  float: left;
+}
+
+.page_content .entry_form .field_items .details .validation .content .lft {
+  float: left;
+  padding-bottom: 35px;
+}
+
+.page_content .entry_form .field_items .details .validation .content .lft label {
+  font-family: "Lato", sans-serif;
+  font-size: 18.72px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: black;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.page_content .entry_form .field_items .details .validation .content .lft label::after {
+  content: " *";
+  color: red;
+}
+
+.page_content .entry_form .field_items .details .validation .content .lft input {
+  border: solid 1px #979797;
+  max-width: 100%;
+  height: 48px;
+  background: #ffffff;
+  padding-left: 10px;
+}
+
+.page_content .entry_form .field_items .details .validation .content .rgt {
+  float: left;
+  margin-left: 52px;
+  padding-bottom: 35px;
+}
+
+.page_content .entry_form .field_items .details .validation .content .rgt label {
+  font-family: "Lato", sans-serif;
+  font-size: 18.72px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.page_content .entry_form .field_items .details .validation .content .rgt label::after {
+  content: " *";
+  color: red;
+}
+
+.page_content .entry_form .field_items .details .validation .content .rgt input {
+  border: solid 1px #979797;
+  max-width: 100%;
+  height: 48px;
+  background: #ffffff;
+  padding-left: 10px;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side {
+  padding-bottom: 35px;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side label {
+  font-family: "Lato", sans-serif;
+  font-size: 18.72px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: black;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side label::after {
+  content: " *";
+  color: red;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side input {
+  border: solid 1px #979797;
+  max-width: 100%;
+  height: 48px;
+  background: #ffffff;
+  padding-left: 10px;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side select {
+  border: solid 1px #979797;
+  max-width: 100%;
+  height: 48px;
+  background: #ffffff;
+  padding-left: 10px;
+}
+
+.page_content .entry_form .field_items .details .validation .rgt_side {
+  float: left;
+  margin-left: 52px;
+  padding-bottom: 35px;
+}
+
+.page_content .entry_form .field_items .details .validation .rgt_side label {
+  font-family: "Lato", sans-serif;
+  font-size: 18.72px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.page_content .entry_form .field_items .details .validation .rgt_side label::after {
+  content: " *";
+  color: red;
+}
+
+.page_content .entry_form .field_items .details .validation .rgt_side input {
+  border: solid 1px #979797;
+  max-width: 100%;
+  height: 48px;
+  background: #ffffff;
+  padding-left: 10px;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side_ss {
+  padding-bottom: 35px;
+  float: left;
+  padding-bottom: 35px;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side_ss label {
+  font-family: "Lato", sans-serif;
+  font-size: 18.72px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: black;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side_ss label::after {
+  content: " *";
+  color: red;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side_ss input {
+  border: solid 1px #979797;
+  max-width: 100%;
+  height: 48px;
+  background: #ffffff;
+  padding-left: 10px;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side_ss p {
+  font-family: "Lato", sans-serif;
+  padding-top: 2px;
+}
+
+.page_content .entry_form .field_items .details .validation .rgt_side_ss {
+  float: left;
+  margin-left: 52px;
+  padding-bottom: 35px;
+}
+
+.page_content .entry_form .field_items .details .validation .rgt_side_ss label {
+  font-family: "Lato", sans-serif;
+  font-size: 18.72px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.page_content .entry_form .field_items .details .validation .rgt_side_ss label::after {
+  content: " *";
+  color: red;
+}
+
+.page_content .entry_form .field_items .details .validation .rgt_side_ss input {
+  border: solid 1px #979797;
+  max-width: 100%;
+  height: 48px;
+  background: #ffffff;
+  padding-left: 10px;
+}
+
+.page_content .entry_form .field_items .details .validation .rgt_side_ss p {
+  font-family: "Lato", sans-serif;
+  padding-top: 2px;
+}
+
+.page_content .entry_form .field_items .details .validation .upload {
+  clear: both;
+}
+
+.page_content .entry_form .field_items .details .validation .upload label {
+  font-family: "Lato", sans-serif;
+  font-size: 18.72px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+  padding-bottom: 50px;
+}
+
+.page_content .entry_form .field_items .details .validation .upload .upload-content {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.page_content .entry_form .field_items .details .validation .upload .upload-content a {
+  font-family: Lato;
+  font-size: 18.72px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  background: #49a923;
+  border: none;
+  width: 215px;
+  text-align: center;
+  cursor: pointer;
+  padding-bottom: 0;
+  text-decoration: none;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side_last {
+  padding-bottom: 35px;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side_last label {
+  font-family: "Lato", sans-serif;
+  font-size: 18.72px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: black;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side_last label::after {
+  content: " *";
+  color: red;
+}
+
+.page_content .entry_form .field_items .details .validation .lft_side_last input {
+  border: solid 1px #979797;
+  max-width: 100%;
+  height: 48px;
+  background: #ffffff;
+  padding-left: 10px;
+}
+
+.page_content .entry_form .field_items .details .validation .last {
+  clear: both;
+  padding-bottom: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page_content .entry_form .field_items .details .validation .last input {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  border: 1px solid #9b9b9b;
+  float: left;
+  margin-right: 25px;
+  background: #ffffff;
+  vertical-align: middle;
+}
+
+.page_content .entry_form .field_items .details .validation .last label {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+  width: 73%;
+}
+
+.page_content .entry_form .field_items .details .validation .last label::after {
+  content: " *";
+  color: red;
+}
+
+.page_content .entry_form .field_items .details .validation .lst-content {
+  clear: both;
+  padding-bottom: 60px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page_content .entry_form .field_items .details .validation .lst-content input {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  border: 1px solid #9b9b9b;
+  float: left;
+  margin-right: 25px;
+  background: #ffffff;
+  vertical-align: middle;
+}
+
+.page_content .entry_form .field_items .details .validation .lst-content label {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+  width: 73%;
+}
+
+.page_content .entry_form .field_items .details .validation .lst-content a {
+  color: #49a923;
+  text-decoration: none;
+}
+
+.page_content .entry_form .field_items .details .validation .lst-content a::after {
+  content: " *";
+  color: red;
+}
+
+.page_content .entry_form .field_items .details .validation .link a {
+  text-decoration: none;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #49a923;
+  display: block;
+}
+
+.page_content .entry_form .field_items .details .validation .submit input[type="button"],
+.page_content .entry_form .field_items .details .validation .submit input[type="submit"],
+.page_content .entry_form .field_items .details .validation .submit input[type="reset"] {
+  background-color: #49a923;
+  border: none;
+  color: white;
+  padding: 16px 62px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=form.css.map */

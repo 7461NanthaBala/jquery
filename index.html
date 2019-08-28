@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Page | My Pet and I</title>
+    <link rel="stylesheet" type="text/css" href="scss/main.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+    <script src="function.js"></script>
+</head>
+
+<body>
+    <div class="page_content">
+            <div class="field_item">
+
+                
+
+
+
+                <div class="navigation">           
+                        <h1 style="display:none">Where does the overlay text go? 
+                            Adding more text to see how large it looks. What happens when there are three sentences?</h1>
+                <ul class="nav_link">
+                    <li class="active tab1">
+                    <a  href="#Div1">How to Enter</a></li>
+
+                    <li class="tab2">
+                    <a href="#Div2">Entry Form</a></li>
+                    <li class="tab3">
+                    <a href="#Div3">Terms and Conditions</a></li>
+                </ul>
+                <!-- <div class="field-items-content">
+                    "How to Enter"
+
+                </div> -->
+                </div>
+            </div>
+                <div class="how-to-enter" id="Div1">
+                    <h2>Step 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adioiscing elit. testing promotion 1 </p>
+                    <h2>Step 2</h2>
+                    <p>Enter your details including barcode (found on product package) and then upload your receipt.</p>
+                    <h2>Step 3</h2>
+                    <p>Once validated you will receive a 3 pack of the same eligible Promotion Title originally
+                        purchased.</p>
+                    <div class="enter-now">
+                <a class="tab4" href="#Div2">Enter Now</a>
+                    </div>
+                    </br>
+                    <div class="terms">
+                        <a class="tab5" href="#Div3">Full Terms & Conditons</a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="entry_form" id="Div2" style="display: none">
+                    <div class="field_items">
+                        <div class="field-items-heading">
+                            <h2>Enter your details below to receive your promotional offer</h2>
+                        </div>
+                        <div class="field-items-required">
+                            <span class="required-text">
+                                Fields are required.
+                            </span>
+                        </div>
+                        <div class="details">
+                            <h3>
+                                Personal Details
+                            </h3>
+                            <div class="validation">
+                                <form name="RegForm" action="">
+                                    <div class="content">
+                                        <div class="lft">
+                                            <label for="f1">First Name</label>
+                                            <input type="text" id="f1" name="firstname" size=60>
+                                        </div>
+                                        <div class="rgt">
+                                            <label for="f2">Last Name</label>
+                                            <input type="text" id="f2" name="lastname" size=60>
+                                        </div>
+                                        <div class="lft">
+                                            <label for="f3">Email address</label>
+                                            <input type="email" id="f3" name="emailaddress" size=60>
+                                        </div>
+                                        <div class="rgt">
+                                            <label for="f4">Confirm Email</label>
+                                            <input type="email" id="f4" name="confirm-email" size=60>
+                                        </div>
+
+                                        <div class="lft">
+                                            <label for="f5">Daytime contact number</label>
+                                            <input type="text" id="f5" name="contact-numbar" size=60>
+                                        </div>
+                                        <div class="rgt">
+                                            <label for="f6">Unit Number</label>
+                                            <input type="text" id="f6" name="unitnumber" size=60>
+                                        </div>
+                                    </div>
+                                    <div class="lft_side">
+                                        <label for="f7">Street Number</label>
+                                        <input type="text" id="f7" name="streetnumber" size=130>
+                                    </div>
+                                    <div class="lft_side">
+                                        <label for="f8">Street Name</label>
+                                        <input type="text" id="f8" name="streetname" size=130>
+                                    </div>
+                                    <div class="lft_side">
+                                        <label for="f9">Street Suffix</label>
+                                        <input type="text" id="f9" name="streetsuffix" size=130>
+                                    </div>
+                                    <div class="lft_side">
+                                        <label for="f10">Suburb</label>
+                                        <input type="text" id="f10" name="suburb" size=130>
+                                    </div>
+                                    <div class="lft_side">
+                                    <label>State</label>
+                                        <select type="text" value="" name="state" >
+                                            <option>-Select-</option>
+                                            <option>Australian Capital Territory</option>
+                                            <option>Northern Territory</option>
+                                            <option>New South Wales</option>
+                                            <option>Queensland</option>
+                                            <option>South Australia</option>
+                                            <option>Tasmania</option>
+                                            <option>Victoria</option>
+                                            <option>Western Australia</option>
+                                        </select>
+                                    </div>
+                                    <div class="lft_side">
+                                    <label for="f12">Postcode</label>
+                                    <input type="number" id="f12" name="postcode" size=65>
+                                    </div>
+                                    <h3>Purchase Details</h3>
+                                    <!-- <div class="nxt_content"> -->
+                                    <div class="lft_side_ss">
+                                    <label for="f13">Barcode</label>
+                                    <input type="text" id="f13" name="barcode" size=65>
+                                    <p>Enter the last four digits of your barcode.</p>
+                                    </div>
+                                    <div class="rgt_side_ss">
+                                    <label for="f14">Purchase date on receipt</label>
+                                    <input type="text" id="f14" name="purchase-date-on-receipt" size=35>
+                                    <p>Please select your purchase receipt date here.</p>
+                                    </div>
+                                <!-- </div> -->
+                                    <div class="upload">
+                                        <label for="fff">Upload receipt</label>
+                                        <div class="upload-content">
+                                        <a href="#upload" id="fff" >Upload</a>
+                                    </div>
+                                    </div>
+                                    <div class="lft_side_last">
+                                    <label for="f15">Store Name</label>
+                                    <input type="text" id="f15" name="storename" size=130>
+                                </div>
+                                <div class="last">
+                                        <input type="checkbox" id="f16" >
+                                    <label for="f16">I have retained my receipt as proof of purchase. </label>
+                                </div>
+                                <div class="lst-content">
+                                        <input type="checkbox" id="f17">
+                                    <label for="f17">I am over 18 years of age and have read and accept the promotion’s 
+                                        <a href="#terms-and-conditions">Terms and Conditions </a></label>
+                                </div>
+                                <div class="submit" id="submit_id">
+                                        <input type="button" value="Submit" disabled="disabled">
+                                        <script type="text/javascript">
+                                            document.getElementById('submit_id').disabled = true;
+                                        </script>
+                                </div>
+                                <div class="link">
+                                    
+                                        <a href="#terms-and-conditons" class="secondlink">Full Terms and Conditions</a>
+                                    
+                                </div>
+                                    <div class="link-content">
+                                        <p>Already submitted request for this promotion with same email address.</p>
+                                    </div>
+                            </div>
+                            
+                                <!-- </div> -->
+                                </form>
+                            </div>
+                      
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="terms-and-conditions" id="Div3" style="display: none">
+                    <h2>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque porta libero, sed
+                        faucibus risus mollis a. Integer et pellentesque enim. Sed tincidunt pretium leo vel aliquam.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras
+                        at rhoncus mauris. Nullam eu nulla ut leo interdum dignissim eu a est. Vestibulum et rhoncus
+                        diam. Fusce ac rhoncus erat. Vestibulum sed laoreet nisi. Quisque vulputate pretium purus, eu
+                        consequat quam semper sed. Praesent consectetur vitae nisi ac luctus. Mauris lacus est, accumsan
+                        dignissim tortor a, bibendum aliquet erat. Nullam quis efficitur libero. Donec ac euismod
+                        libero. Sed ullamcorper eget lectus id accumsan. Suspendisse id posuere ligula, a blandit ipsum.
+                    </h2>
+                    <p>
+                        Proin volutpat libero viverra, aliquam justo faucibus, bibendum quam. Aliquam mattis ornare
+                        vestibulum. Nulla posuere libero in nunc scelerisque iaculis. Praesent dapibus erat enim,
+                        porttitor rutrum est tincidunt vitae. Suspendisse sit amet eros vel quam bibendum finibus. Proin
+                        non ante id urna varius pharetra. Aenean aliquam pellentesque risus id venenatis. Aenean posuere
+                        ultricies odio a scelerisque. Nullam aliquam purus sed ligula aliquam venenatis. Curabitur
+                        pellentesque tellus quis magna hendrerit, vel hendrerit lorem ultrices. Proin leo mauris,
+                        consequat at pulvinar et, sagittis pharetra libero. Orci varius natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Duis vel est metus. Nam lobortis nisl a erat ornare
+                        posuere.
+                    </p>
+                    <p>
+                        Vestibulum posuere sapien eu luctus fringilla. Duis dictum elit sit amet nisl suscipit varius.
+                        Suspendisse at ipsum elit. Praesent semper lacus at nisl mattis, egestas sagittis sem luctus.
+                        Praesent dui sapien, accumsan eleifend ornare nec, ultrices eu ex. Pellentesque nec finibus
+                        lorem. Donec consectetur justo a varius lacinia. Suspendisse potenti. Proin luctus facilisis
+                        lorem sed semper. Nunc in leo vel nibh dignissim ullamcorper.
+                    </p>
+                    <p>
+                        Etiam posuere gravida tincidunt. Praesent eu magna eu lectus vehicula blandit et id mauris. Sed
+                        sit amet odio a nibh mollis tempor. Maecenas in nisi eu dui vulputate dictum id vel metus.
+                        Integer quis felis nec magna aliquam tincidunt. Nullam fringilla lectus at bibendum auctor.
+                        Suspendisse accumsan lorem et venenatis dictum.
+                    </p>
+                    <p>
+                        Aenean finibus consequat lorem, vel ornare nisi laoreet vel. Nulla vehicula purus mi, vitae
+                        accumsan risus maximus nec. Etiam eros tortor, maximus ac accumsan in, maximus at est. Nulla
+                        urna eros, eleifend vitae ex quis, porta porttitor turpis. Aliquam ut augue turpis. Aliquam
+                        placerat tempus viverra. Donec leo nibh, viverra sed gravida nec, cursus eu tellus. Aliquam
+                        porttitor lacus vel erat volutpat condimentum. Morbi in leo nec dui porttitor faucibus. In diam
+                        elit, porta iaculis ligula id, congue blandit nisl. Nulla lacinia tempor ipsum id luctus. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut blandit
+                        mauris nec lacus dapibus faucibus. Nullam feugiat varius diam. Nullam accumsan vulputate dui in
+                        finibus. Donec gravida finibus elit eu eleifend.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque porta libero, sed
+                        faucibus risus mollis a. Integer et pellentesque enim. Sed tincidunt pretium leo vel aliquam.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras
+                        at rhoncus mauris. Nullam eu nulla ut leo interdum dignissim eu a est. Vestibulum et rhoncus
+                        diam. Fusce ac rhoncus erat. Vestibulum sed laoreet nisi. Quisque vulputate pretium purus, eu
+                        consequat quam semper sed. Praesent consectetur vitae nisi ac luctus. Mauris lacus est, accumsan
+                        dignissim tortor a, bibendum aliquet erat. Nullam quis efficitur libero. Donec ac euismod
+                        libero. Sed ullamcorper eget lectus id accumsan. Suspendisse id posuere ligula, a blandit ipsum.
+                    </p>
+                    <p>
+                        Proin volutpat libero viverra, aliquam justo faucibus, bibendum quam. Aliquam mattis ornare
+                        vestibulum. Nulla posuere libero in nunc scelerisque iaculis. Praesent dapibus erat enim,
+                        porttitor rutrum est tincidunt vitae. Suspendisse sit amet eros vel quam bibendum finibus. Proin
+                        non ante id urna varius pharetra. Aenean aliquam pellentesque risus id venenatis. Aenean posuere
+                        ultricies odio a scelerisque. Nullam aliquam purus sed ligula aliquam venenatis. Curabitur
+                        pellentesque tellus quis magna hendrerit, vel hendrerit lorem ultrices. Proin leo mauris,
+                        consequat at pulvinar et, sagittis pharetra libero. Orci varius natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Duis vel est metus. Nam lobortis nisl a erat ornare
+                        posuere.
+                    </p>
+                    <p>
+                        Vestibulum posuere sapien eu luctus fringilla. Duis dictum elit sit amet nisl suscipit varius.
+                        Suspendisse at ipsum elit. Praesent semper lacus at nisl mattis, egestas sagittis sem luctus.
+                        Praesent dui sapien, accumsan eleifend ornare nec, ultrices eu ex. Pellentesque nec finibus
+                        lorem. Donec consectetur justo a varius lacinia. Suspendisse potenti. Proin luctus facilisis
+                        lorem sed semper. Nunc in leo vel nibh dignissim ullamcorper.
+                    </p>
+                    <p>
+                        Vestibulum posuere sapien eu luctus fringilla. Duis dictum elit sit amet nisl suscipit varius.
+                        Suspendisse at ipsum elit. Praesent semper lacus at nisl mattis, egestas sagittis sem luctus.
+                        Praesent dui sapien, accumsan eleifend ornare nec, ultrices eu ex. Pellentesque nec finibus
+                        lorem. Donec consectetur justo a varius lacinia. Suspendisse potenti. Proin luctus facilisis
+                        lorem sed semper. Nunc in leo vel nibh dignissim ullamcorper.
+                    </p>
+                    <p>
+                        Aenean finibus consequat lorem, vel ornare nisi laoreet vel. Nulla vehicula purus mi, vitae
+                        accumsan risus maximus nec. Etiam eros tortor, maximus ac accumsan in, maximus at est. Nulla
+                        urna eros, eleifend vitae ex quis, porta porttitor turpis. Aliquam ut augue turpis. Aliquam
+                        placerat tempus viverra. Donec leo nibh, viverra sed gravida nec, cursus eu tellus. Aliquam
+                        porttitor lacus vel erat volutpat condimentum. Morbi in leo nec dui porttitor faucibus. In diam
+                        elit, porta iaculis ligula id, congue blandit nisl. Nulla lacinia tempor ipsum id luctus. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut blandit
+                        mauris nec lacus dapibus faucibus. Nullam feugiat varius diam. Nullam accumsan vulputate dui in
+                        finibus. Donec gravida finibus elit eu eleifend.
+                    </p>
+                </div>
+    </div>
+</body>
+
+</html>

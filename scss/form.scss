@@ -1,0 +1,357 @@
+.page_content {
+  .entry_form {
+    margin-left: 80px;
+    font-family: "Lato", sans-serif;
+    .field_items {
+      .field-items-required::before {
+        content: "*";
+        color: red;
+      }
+      .details {
+        .validation {
+          .content {
+            padding-bottom: 35px;
+            float: left;
+            .lft {
+              //width: 31.22171945701357%;
+              float: left;
+              padding-bottom: 35px;
+
+              label {
+                font-family: "Lato", sans-serif;
+                font-size: 18.72px;
+                font-style: normal;
+                font-weight: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: black;
+                padding-bottom: 20px;
+                display: block;
+              }
+              label::after {
+                content: " *";
+                color: red;
+              }
+              input {
+                border: solid 1px #979797;
+                max-width: 100%;
+                height: 48px;
+                background: #ffffff;
+                padding-left: 10px;
+              }
+            }
+            .rgt {
+              float: left;
+              margin-left: 52px;
+              padding-bottom: 35px;
+
+              label {
+                font-family: "Lato", sans-serif;
+                font-size: 18.72px;
+                font-style: normal;
+                font-weight: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #222222;
+                padding-bottom: 20px;
+                display: block;
+              }
+              label::after {
+                content: " *";
+                color: red;
+              }
+              input {
+                border: solid 1px #979797;
+                max-width: 100%;
+                height: 48px;
+                background: #ffffff;
+                padding-left: 10px;
+              }
+            }
+          }
+          .lft_side {
+            padding-bottom: 35px;
+            label {
+              font-family: "Lato", sans-serif;
+              font-size: 18.72px;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              color: black;
+              padding-bottom: 20px;
+              display: block;
+            }
+            label::after {
+              content: " *";
+              color: red;
+            }
+            input {
+              border: solid 1px #979797;
+              max-width: 100%;
+              height: 48px;
+              background: #ffffff;
+              padding-left: 10px;
+            }
+            select {
+              border: solid 1px #979797;
+              max-width: 100%;
+              height: 48px;
+              background: #ffffff;
+              padding-left: 10px;
+            }
+          }
+          .rgt_side {
+            float: left;
+            margin-left: 52px;
+            padding-bottom: 35px;
+
+            label {
+              font-family: "Lato", sans-serif;
+              font-size: 18.72px;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              color: #222222;
+              padding-bottom: 20px;
+              display: block;
+            }
+            label::after {
+              content: " *";
+              color: red;
+            }
+            input {
+              border: solid 1px #979797;
+              max-width: 100%;
+              height: 48px;
+              background: #ffffff;
+              padding-left: 10px;
+            }
+          }
+          .lft_side_ss {
+            padding-bottom: 35px;
+            float: left;
+            padding-bottom: 35px;
+            label {
+              font-family: "Lato", sans-serif;
+              font-size: 18.72px;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              color: black;
+              padding-bottom: 20px;
+              display: block;
+            }
+            label::after {
+              content: " *";
+              color: red;
+            }
+            input {
+              border: solid 1px #979797;
+              max-width: 100%;
+              height: 48px;
+              background: #ffffff;
+              padding-left: 10px;
+            }
+            p {
+              font-family: "Lato", sans-serif;
+              padding-top: 2px;
+            }
+          }
+          .rgt_side_ss {
+            float: left;
+            margin-left: 52px;
+            padding-bottom: 35px;
+
+            label {
+              font-family: "Lato", sans-serif;
+              font-size: 18.72px;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              color: #222222;
+              padding-bottom: 20px;
+              display: block;
+            }
+            label::after {
+              content: " *";
+              color: red;
+            }
+            input {
+              border: solid 1px #979797;
+              max-width: 100%;
+              height: 48px;
+              background: #ffffff;
+              padding-left: 10px;
+            }
+            p {
+              font-family: "Lato", sans-serif;
+              padding-top: 2px;
+            }
+          }
+          // }
+          .upload {
+            clear: both;
+            label {
+              font-family: "Lato", sans-serif;
+              font-size: 18.72px;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              color: #222222;
+              padding-bottom: 50px;
+            }
+            .upload-content {
+              margin-top: 20px;
+              margin-bottom: 40px;
+              a {
+                font-family: Lato;
+                font-size: 18.72px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #ffffff;
+                display: inline-block;
+                height: 50px;
+                line-height: 50px;
+                background: #49a923;
+                border: none;
+                width: 215px;
+                text-align: center;
+                cursor: pointer;
+                padding-bottom: 0;
+                text-decoration: none;
+              }
+            }
+          }
+          .lft_side_last {
+            padding-bottom: 35px;
+            label {
+              font-family: "Lato", sans-serif;
+              font-size: 18.72px;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              color: black;
+              padding-bottom: 20px;
+              display: block;
+            }
+            label::after {
+              content: " *";
+              color: red;
+            }
+            input {
+              border: solid 1px #979797;
+              max-width: 100%;
+              height: 48px;
+              background: #ffffff;
+              padding-left: 10px;
+            }
+          }
+          .last {
+            clear: both;
+            padding-bottom: 40px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            input {
+              width: 18px;
+              height: 18px;
+              border-radius: 3px;
+              border: 1px solid #9b9b9b;
+              float: left;
+              margin-right: 25px;
+              background: #ffffff;
+              vertical-align: middle;
+            }
+            label {
+              font-family: "Lato", sans-serif;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              color: #222222;
+              width: 73%;
+            }
+            label::after {
+              content: " *";
+              color: red;
+            }
+          }
+          .lst-content {
+            clear: both;
+            padding-bottom: 60px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            input {
+              width: 18px;
+              height: 18px;
+              border-radius: 3px;
+              border: 1px solid #9b9b9b;
+              float: left;
+              margin-right: 25px;
+              background: #ffffff;
+              vertical-align: middle;
+            }
+            label {
+              font-family: Lato;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: normal;
+              line-height: normal;
+              letter-spacing: normal;
+              color: #222222;
+              width: 73%;
+            }
+            a {
+              color: #49a923;
+              text-decoration: none;
+            }
+            a::after {
+              content: " *";
+              color: red;
+            }
+          }
+          .link {
+              a {
+                text-decoration: none;
+                margin: 0;
+                font-family: "Lato", sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #49a923;
+                display: block;
+              }
+            
+          }
+          .submit {
+            input[type="button"],
+            input[type="submit"],
+            input[type="reset"] {
+              background-color: #49a923;
+              border: none;
+              color: white;
+              padding: 16px 62px;
+              text-decoration: none;
+              margin: 4px 2px;
+              cursor: pointer;
+              opacity: 0.5;
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
